@@ -4,7 +4,7 @@
 
 Kilian Lüders & Bent Stohlmann: *Proportionality as an argument. Identification of a judicial decision technique.*
 
-1.5.2023 (Draft Version)
+14.6.2023 (Draft Version)
 
 Contact: kilian.lueders@hu-berlin.de
 
@@ -15,11 +15,12 @@ Thereby, our paper makes three contributions: Firstly, it critically discusses t
 ## Files
 
 ```bash
+├── classification_simpletransformers.ipynb
 ├── classification.ipynb            # code of ML classification
 ├── data
 │   ├── 2023_3_7_vhmk_data.csv      # annotation data
 │   ├── Metadaten2.6.1.csv          # metadata on GFCC decisions
-│   ├── performance_data.csv        # output classification.ipynb
+│   ├── 20230607_performance_data.csv
 │   ├── training_data.pkl           # output preprocessing.py
 │   └── we_model.model              # Word Embedding (not included)
 ├── evaluation.ipynb                # visualisations and tabels
